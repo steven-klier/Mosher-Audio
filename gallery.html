@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mosher Audio | Gallery</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".hide").hide();
+			$(".hide").fadeIn(500).removeClass('hide');
+			$(".social").mouseenter(function() {
+				$(this).animate({
+					width: '100px'
+				}, "fast");
+			}); //end mouseenter
+			$(".social").mouseleave(function() {
+				$(this).animate({
+					width: '75px'
+				}, "fast");
+			}) //end mouseenter
+		}); // end document ready
+
+	</script>
+	<meta name="description" content>
+	<meta property="og:title" content="Mosher Audio | Gallery">
+	<meta property="og:description" content>
+	<meta property="og:image" content>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.stevenklier.com/mosher_audio/gallery.html">
+</head>
+
+<body class="col-12 p-0">
+
+	<ul class="nav nav-tabs nav-justified justify-content-center position-sticky">
+		<li class="nav-item active"> <a class="nav-link text-light font-weight-bold" href="index.html">HOME</a> </li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="bio.html">BIO</a> </li>
+		<li class="nav-item"> <a class="nav-link text-dark font-weight-bold active" id="active" href="gallery.html">GALLERY</a>
+		</li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="music.html">MUSIC</a> </li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="contact.html">CONTACT</a> </li>
+	</ul>
+
+	<h1 class="display-4 text-center text-light dom mt-4">Gallery</h1>
+
+	<div class="row mx-0 justify-content-center mt-4">
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/20180330_ROAK_KFest131131.jpg" width="300px" class="d-block mx-auto img-fluid rounded cms-editable"
+			     alt="dom_guitar" id="gallery1">
+		</div>
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/20180330_ROAK_KFest177177-min.jpg" width="300px" class="d-block mx-auto img-fluid rounded cms-editable"
+			     alt="dom_guitar" id="gallery2">
+		</div>
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/dsc_0300.jpg" width="300px" class="d-block mx-auto img-fluid rounded cms-editable" alt="dom_studio"
+			     id="gallery3">
+		</div>
+	</div>
+	<div class="row mx-0 justify-content-center mt-sm-4">
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/DSC_3120-min.jpg" width="300px" class="d-block mx-auto img-fluid rounded cms-editable" alt="dom_studio"
+			     id="gallery4">
+		</div>
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/orca_share_media1550377581133.JPG" width="300px" class="d-block mx-auto img-fluid rounded cms-editable"
+			     alt="dom_studio" id="gallery5">
+		</div>
+		<div class="col-12 col-sm-3 mt-sm-0 mt-2">
+			<img src="images/gallery/orca_share_media1550377695586.JPG" width="300px" class="d-block mx-auto img-fluid rounded cms-editable"
+			     alt="dom_studio" id="gallery6">
+		</div>
+	</div>
+
+	<div class="row justify-content-center mb-5 mt-5 footer mx-0">
+		<div class="col-8 nav nav-justified p-0" id="footer">
+			<div class="nav-item">
+				<a href="#" class="cms-editable" id="social1"><img class="img-fluid social cms-editable" src="images/social media icons/linkedin.png"
+					     alt="linkedin" width="75px"></a>
+			</div>
+			<div class="nav-item">
+				<a href="#" class="cms-editable" id="social2"><img class="img-fluid social cms-editable" src="images/social media icons/facebook.png"
+					     alt="facebook" width="75px"></a>
+			</div>
+			<div class="nav-item">
+				<a href="#" class="cms-editable" id="social3"><img class="img-fluid social cms-editable" src="images/social media icons/twitter.png"
+					     alt="twitter" width="75px"></a>
+			</div>
+		</div>
+		<!--end column 1-->
+	</div>
+	<!--end row 2-->
+
+</body>
+</html>

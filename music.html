@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mosher Audio | Music</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+		
+	$(document).ready(function(){
+			
+			$(".hide").hide();
+			$(".hide").fadeIn(500).removeClass('hide');
+		
+			$(".social").mouseenter(function(){
+				$(this).animate({width:'100px'},"fast");
+			});//end mouseenter
+			$(".social").mouseleave(function(){
+				$(this).animate({width:'75px'},"fast");
+			})//end mouseenter
+		});// end document ready   
+	  
+	</script>
+  </head>
+	
+<body class="col-12 p-0">
+	
+<ul class="nav nav-tabs nav-justified justify-content-center position-sticky">
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="index.html">HOME</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="bio.html">BIO</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="gallery.html">GALLERY</a> </li>
+	  <li class="nav-item active"> <a class="nav-link text-dark font-weight-bold active" id="active" href="music.html">MUSIC</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="contact.html">CONTACT</a> </li>
+</ul>
+	
+<div class="row mt-4 HR mx-0">
+  <div class="col-12 text-center text-light p-0">
+		<h2 class="song_name display-1">Sing to Me</h2>
+		<h4 class="band_name display-2">Highlight Reel</h4>
+  </div>
+	
+	<div class="sing_to_me_before col-6 p-0">
+		<h4 class="text-black text-center bg-light col-12">BEFORE</h4>
+		<img src="images/Album Art/sing_to_me_BW.png" alt="Sing to Me" class="img-fluid d-block mx-auto rounded mt-4 music_img" width="400px">
+  		<audio controls src="images/Mosher Audio Website Samples/Sing to Me BEFORE.wav" class="d-block mx-auto"></audio>
+	</div>
+	
+	<div class="sing_to_me_after col-6 p-0">
+	  <h4 class="text-black text-center bg-light">AFTER</h4>
+	  <img src="images/Album Art/sing_to_me.png" alt="Sing to Me" class="img-fluid d-block mx-auto rounded mt-4 music_img" width="400px">
+	  <audio controls src="images/Mosher Audio Website Samples/Sing to Me AFTER.wav" class="d-block mx-auto"></audio>
+	</div>
+	
+</div>
+	
+<div class="row mt-5 Rivals mx-0">
+  <div class="col-12 text-center text-light p-0">
+	<h2 class="song_name display-1">Six Speed</h2>
+	<h4 class="band_name display-2">Rivals</h4>
+  </div>
+	
+  <div class="six_speed_before col-6 p-0">
+	  <h4 class="text-black text-center bg-light col-12">BEFORE</h4>
+	  <img src="images/Album Art/summer_sweat_BW.png" alt="Sing to Me" class="img-fluid d-block mx-auto mt-4 music_img" width="400px">
+	  <audio controls src="images/Mosher Audio Website Samples/Six Speed BEFORE.wav" class="d-block mx-auto rounded"></audio>
+	</div>
+	
+	<div class="six_speed_after col-6 p-0">
+		<h4 class="text-black text-center bg-light">AFTER</h4>
+	  <img src="images/Album Art/SUMMER SWEAT EP.jpg" alt="Sing to Me" class="img-fluid d-block mx-auto mt-4 music_img" width="400px">
+	  <audio controls src="images/Mosher Audio Website Samples/Six Speed AFTER.wav" class="d-block mx-auto"></audio>
+  </div>
+	
+</div>
+	
+<div class="row mt-5 B_C mx-0">
+  <div class="col-12 text-center text-light p-0">
+	<h2 class="song_name display-1">Two Dead Girls</h2>
+	<h4 class="band_name display-2">Bathroom Community</h4>
+  </div>
+	
+  <div class="two_dead_before col-6 p-0">
+	  <h4 class="text-black text-center bg-light col-12">BEFORE</h4>
+	<img src="images/Album Art/BC_BW.png" alt="Sing to Me" class="img-fluid d-block mx-auto mt-4 music_img" width="400px">
+    <audio controls src="images/Mosher Audio Website Samples/Two Dead Girls BEFORE.wav" class="d-block mx-auto"></audio>
+  </div>
+	
+	<div class="two_dead_after col-6 p-0">
+		<h4 class="text-black text-center bg-light">AFTER</h4>
+	  <img src="images/Album Art/Bathroom Community - Life Checks.jpg" alt="Sing to Me" class="img-fluid d-block mx-auto mt-4 music_img" width="400px">
+	  <audio controls src="images/Mosher Audio Website Samples/Two Dead Girls AFTER.wav" class="d-block mx-auto"></audio>
+  </div>
+	
+</div>
+
+	
+	
+<div class="row justify-content-center mb-5 mt-5 footer mx-0">
+  <div class="col-8 nav nav-justified mt-5 p-0 mx-0" id="footer">
+		<div class="nav-item">
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/linkedin.png" alt="linkedin" width="75px">
+			</a>
+	  	</div>
+		<div class="nav-item">
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/facebook.png" alt="facebook" width="75px">
+			</a>
+	  	</div>
+		<div class="nav-item">	
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/twitter.png" alt="twitter" width="75px">
+			</a>
+		</div>
+	</div><!--end column 1-->
+</div><!--end row 2-->
+
+	
+</body>
+</html>

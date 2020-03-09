@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mosher Audio | Bio</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+		
+	$(document).ready(function(){
+			
+			$(".hide").hide();
+			$(".hide").fadeIn(500).removeClass('hide');
+		
+			$(".social").mouseenter(function(){
+				$(this).animate({width:'100px'},"fast");
+			});//end mouseenter
+			$(".social").mouseleave(function(){
+				$(this).animate({width:'75px'},"fast");
+			})//end mouseenter
+		});// end document ready   
+	  
+	</script>
+  </head>
+	
+<body class="col-12 p-0">
+	
+<ul class="nav nav-tabs nav-justified justify-content-center position-sticky">
+	  <li class="nav-item active"> <a class="nav-link text-light font-weight-bold" href="index.html">HOME</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-dark font-weight-bold active" id="active" href="bio.html">BIO</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="gallery.html">GALLERY</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="music.html">MUSIC</a> </li>
+	  <li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="contact.html">CONTACT</a> </li>
+</ul>
+
+	<h1 class="display-4 text-center text-light dom mt-4">Dominic Mosher</h1>
+	
+	<div class="row mx-0 p-0 col-12 bio_content justify-content-center">
+		<div class="col-sm-8 p-0 rounded">
+			<img class="mx-auto mb-4 d-block mt-4 rounded img-fluid" src="images/gallery/20180330_ROAK_KFest131131.jpg" width="800px">
+			<p class="text-light m-0 pt-4 pl-4 pr-4 pb-0 rounded bio_text">Michigan native Dominic Mosher has transformed his life-long passion for music into a career specialized in recording, mixing, and mastering. A guitarist himself for over 14 years, and a graduate of Michigan Technical University with a BA in Audio Production and Technology, Dominic understands how important quality production is to his clients. His substantial experience working live performances and studio projects, including sound design for movies and FOH mixing, has gained him a reputation for helping accomplish goals and achieving the highest standards in sound.
+			</p>
+			<p class="text-light pl-4 pr-4 pb-4 m-0 rounded bio_text">
+			Dominic’s clients keep him around for a reason. He believes that details matter and if a band wants something it is his responsibility to make that happen. Vocalist, Dylan Bowie, of Bathroom Community calls Dominic “easy to work with and extremely helpful, and in regard to Dominic's work,“the quality for the price is unbeatable and the atmosphere was amazing.” He continues to work passionately to improve his abilities as a songwriter and producer most recently in his fully equipped studio. Whether its for live performances or collaboration in-studio, Dominic is prepared with the skills and dedication to become a valuable part of your team. 
+			</p>
+		</div>
+	</div>
+
+	
+<div class="row justify-content-center mb-5 mt-5 footer mx-0">
+	<div class="col-8 nav nav-justified p-0" id="footer">
+		<div class="nav-item">
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/linkedin.png" alt="linkedin" width="75px">
+			</a>
+	  	</div>
+		<div class="nav-item">
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/facebook.png" alt="facebook" width="75px">
+			</a>
+	  	</div>
+		<div class="nav-item">	
+	  		<a href="#">
+				<img class="img-fluid social" src="images/social media icons/twitter.png" alt="twitter" width="75px">
+			</a>
+		</div>
+	</div><!--end column 1-->
+</div><!--end row 2-->
+
+	
+  </body>
+</html>

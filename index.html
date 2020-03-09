@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mosher Audio</title>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".coverart1").animate({
+				right: '100px'
+			}, "fast");
+			$(".hide").hide();
+			$(".hide").fadeIn(2000).removeClass('hide');
+			$(".coverart").mouseenter(function() {
+				$(this).animate({
+					width: '150px'
+				}, "fast");
+			}); //end mouse enter
+			$(".coverart").mouseleave(function() {
+				$(this).animate({
+					width: '125px'
+				}, "fast");
+			}); //end mouse leave
+			$(".social").mouseenter(function() {
+				$(this).animate({
+					width: '100px'
+				}, "fast");
+			}); //end mouseenter
+			$(".social").mouseleave(function() {
+				$(this).animate({
+					width: '75px'
+				}, "fast");
+			}) //end mouseenter
+		}); // end document ready
+
+	</script>
+	<meta name="description" content>
+	<meta property="og:title" content="Mosher Audio">
+	<meta property="og:description" content>
+	<meta property="og:image" content>
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.stevenklier.com/mosher_audio/index.html">
+</head>
+
+<body class="col-12 p-0 mx-0" id="homepage_body">
+	<ul class="nav nav-tabs nav-justified position-sticky mx-0">
+		<li class="nav-item active"> <a class="nav-link text-dark active font-weight-bold" id="active" href="index.html">HOME</a>
+		</li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="bio.html">BIO</a> </li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="gallery.html">GALLERY</a> </li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="music.html">MUSIC</a> </li>
+		<li class="nav-item"> <a class="nav-link text-light font-weight-bold" href="contact.html">CONTACT</a> </li>
+	</ul>
+	<div class="row mx-0">
+		<div class="float-left d-none d-sm-block col-2 justify-content-center p-0" id="left_imgs">
+			<img src="images/Album Art/Bathroom Community - Life Checks.jpg" alt="bathroom community" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart1 cms-editable"
+			     id="BC">
+			<img src="images/Album Art/BUYING HAPPINESS.jpg" alt="poorsport" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart1 cms-editable"
+			     id="BH">
+			<img src="images/Album Art/TAKE THIS TO HEART.jpg" alt="DTS" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart1 cms-editable"
+			     id="TTTH">
+		</div>
+		<!--end column 1-->
+
+		<div class="col-12 col-sm-8 justify-items-center p-1" id="logo">
+			<img class="img-fluid d-block mx-auto cms-editable" id="mosher_audio" src="images/animated_mosheraudo.gif" alt="mosher audio">
+
+			<h1 class="display-4 mixing text-center hide d-block mx-auto mt-3 cms-editable" id="sub">RECORDING | MIXING |
+				MASTERING</h1>
+
+			<div class="col-12 nav nav-justified mt-5 p-0" id="footer">
+				<div class="nav-item">
+					<a class="cms-editable" href="#" id="LI-link"><img id="linked" class="img-fluid social cms-editable" src="images/social media icons/linkedin.png"
+						     alt="linkedin" width="75px"></a>
+				</div>
+				<div class="nav-item">
+					<a class="cms-editable" href="#" id="fb-link"><img id="fb" class="img-fluid social cms-editable" src="images/social media icons/facebook.png"
+						     alt="facebook" width="75px"></a>
+				</div>
+				<div class="nav-item">
+					<a class="cms-editable" href="#" id="twit-link"><img id="twit" class="img-fluid social cms-editable" src="images/social media icons/twitter.png"
+						     alt="twitter" width="75px"></a>
+				</div>
+			</div>
+			<!--end column 1-->
+		</div>
+		<!--end column 2-->
+
+		<div class="float-right d-none d-sm-block col-2 justify-content-center p-0 mx-0" id="right_imgs">
+			<img src="images/Album Art/SUMMER SWEAT EP.jpg" alt="Rivals" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart2 cms-editable"
+			     id="rivals">
+			<img src="images/Album Art/SO THIS IS GOODBYE.jpg" alt="HR" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart2 cms-editable"
+			     id="STIGB">
+			<img src="images/Album Art/TRUTH SEEKER.jpg" alt="HR" width="125px" class="img-fluid rounded mx-auto d-block mt-4 coverart coverart2 cms-editable"
+			     id="TR">
+
+		</div>
+		<!--end column 3-->
+	</div>
+	<!--end row 1-->
+
+</body>
+</html>

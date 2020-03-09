@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+#active{
+	color:black;
+}
+
+body{
+    background: url("../images/bg_bw_2.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+	position: relative;
+}
+
+#logo{
+   margin-top:60px;
+   
+}
+
+#mosher_audio{
+    -webkit-box-shadow: inset 28px 8px 305px 85px rgba(0,0,0,1.00);
+    box-shadow: inset 28px 8px 305px 85px rgba(0,0,0,1.00);
+    border-radius: 10px;	/**background-color:black;**/
+}
+
+.nav{
+    -webkit-box-shadow: inset 93px 27px 44px 4px;
+    box-shadow: inset 93px 27px 44px 4px;
+}
+
+.nav-link{
+    font-size: large;
+}
+
+.mixing{
+    color: white;
+    font-size: 40px;
+    -webkit-box-shadow: inset 10px 5px 77px 73px rgba(0,0,0,1.00);
+    box-shadow: inset 10px 5px 77px 73px rgba(0,0,0,1.00);
+    border-radius: 11px;
+	max-width: 1000px;
+}
+
+.coverart{
+    -webkit-box-shadow: 8px 10px 31px 3px rgba(0,0,0,1.00);
+    box-shadow: 8px 10px 31px 3px rgba(0,0,0,1.00);
+    border: 1px inset rgba(255,255,255,1.00);
+}
+
+#footer{
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+	
+}
+
+label{
+	color:white;
+}
+
+audio{
+	width:60%;
+	margin-top:10px;
+}
+
+.song_name{
+    background-color: #000000;
+    font-size:50px;
+}
+
+.band_name{
+	background-color:black;
+	font-size: 30px;
+}
+
+.music_img{
+    -webkit-box-shadow: 13px 12px 60px 3px #000000;
+    box-shadow: 13px 12px 60px 3px #000000;
+}
+
+.dom{
+    -webkit-box-shadow: inset 469px 63px 305px 10px #000000;
+    box-shadow: inset 469px 63px 305px 10px #000000;
+}
+
+.bio_text{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: large;
+    line-height: 33px;
+    text-align: left;
+    text-indent: 40px;
+	background-color:black;
+}
+
+@media only screen and (max-width: 600px) {
+  #homepage_body {
+    background: black;
+  }
+	
+	#logo{
+		margin-top: 50px;
+	}
+}
+
+/**.contact{
+    -webkit-box-shadow: inset 18px 17px 104px 3px #000000;
+    box-shadow: inset 18px 17px 104px 3px #000000;
+	font-size: 30px;
+} **/
